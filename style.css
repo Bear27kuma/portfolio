@@ -207,7 +207,11 @@ li {
   user-select: none;
 }
 
-.landing-text h1 {
+.landing-text img {
+  width: 40%;
+}
+
+/* .landing-text h1 {
   font-size: 20rem;
   font-family: 'The Historia Demo', sans-serif;
   background: linear-gradient(to top, #21D4FD, #FF5ACD);
@@ -215,11 +219,12 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
-}
+} */
 
 .landing-text h6 {
   font-size: 2rem;
   font-weight: 400;
+  margin-top: 2rem;
 }
 
 /* About */
@@ -745,6 +750,9 @@ li {
 
 /* Media Queries */
 @media screen and (max-width: 1000px) {
+  .landing-text img {
+    width: 50%;
+  }
   .my-skills {
     grid-template-columns: 1fr 1fr;
   }
@@ -801,8 +809,12 @@ li {
     background-size: cover;
   }
 
-  .landing-text h1 {
+  /* .landing-text h1 {
     font-size: 15rem;
+  } */
+
+  .landing-text img {
+    width: 55%;
   }
 
   .landing-text h6 {
@@ -899,8 +911,12 @@ li {
     right: 2rem;
   }
 
-  .landing-text h1 {
+  /* .landing-text h1 {
     font-size: 8rem;
+  } */
+
+  .landing-text img {
+    width: 60%;
   }
 
   .landing-text h6 {
