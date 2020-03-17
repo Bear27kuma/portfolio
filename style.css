@@ -262,8 +262,13 @@ header {
 }
 
 .about-heading h6 {
+  letter-spacing: 2.2rem;
   font-size: 2rem;
   font-weight: 300;
+}
+
+.about-details p {
+  font-size: 1.4rem;
 }
 
 .profile-img {
@@ -276,7 +281,7 @@ header {
 }
 
 .social-media {
-  margin-top: 6.5rem;
+  margin-top: 4.5rem;
 }
 
 .social-media ul li {
