@@ -4,320 +4,339 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yuta Okuma</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/blackbear/blackbear.css">
   <script src="https://kit.fontawesome.com/edc4ee5159.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div id="contents">
-    <header id="home">
-      <div class="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
+  <div id="preloader-bg"></div>
+  <div id="preloader">
+    <div class="bear">
+      <div class="bear__ears">
+        <div class="bear__ears__left ear"></div>
+        <div class="bear__ears__right ear"></div>
       </div>
-      <nav class="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#experience" class="nav-link">Experience</a>
-          </li>
-          <li>
-            <a href="#gallery" class="nav-link">Photo Gallery</a>
-          </li>
-          <canvas id="bubble"></canvas>
-        </ul>
-      </nav>
-      <div class="landing-text">
-        <!-- <h1>Yuta Okuma</h1> -->
-        <img src="images/yutaokuma.png" alt="yuta okuma">
-        <h6>Web Developer and Photographer</h6>
-      </div>
-    </header>
-
-    <section class="about" id="about">
-      <div class="container">
-        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-          <img src="images/profile.jpeg" alt="profile">
+      <div class="bear__body">
+        <div class="bear__eyes">
+          <div class="bear__eyes--left eye"></div>
+          <div class="bear__eyes--right eye"></div>
         </div>
-        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-          <div class="about-heading">
-            <h1>About</h1>
-            <h6>Myself</h6>
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, commodi. Vero, ut, debitis delectus, cumque aliquam consectetur neque quia porro corporis ea asperiores cupiditate quis officiis cum amet ducimus in.
-          </p>
-          <div class="social-media">
-            <ul class="nav-list">
-              <li>
-                <a href="https://www.facebook.com/kumakuma1129" class="icon-link" target="_blank">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/bear_27earl/" class="icon-link" target="_blank">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span><i class="fab fa-instagram" aria-hidden="true"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/bear27_kuma" class="icon-link" target="_blank">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span><i class="fab fa-twitter" aria-hidden="true"></i></span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Bear27kuma" class="icon-link" target="_blank">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span><i class="fab fa-github" aria-hidden="true"></i></span>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="bear__nose">
+          <div class="bear__nose--inner"></div>
         </div>
       </div>
-    </section>
-
-    <section class="skills" id="skills">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Skills</h1>
-          <h6>What I can do for you</h6>
-        </div>
-        <div class="my-skills">
-          <div class="skill" data-aos="fade-in" data-aos-delay="300">
-            <div class="icon-container">
-              <i class="fab fa-html5"></i>
-            </div>
-            <h1>HTML</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="600">
-            <div class="icon-container">
-              <i class="fab fa-css3"></i>
-            </div>
-            <h1>CSS</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="900">
-            <div class="icon-container">
-              <i class="fab fa-js-square"></i>
-            </div>
-            <h1>JavaScript</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="1200">
-            <div class="icon-container">
-              <i class="fab fa-react"></i>
-            </div>
-            <h1>React</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="1500">
-            <div class="icon-container">
-              <i class="fas fa-gem"></i>
-            </div>
-            <h1>Ruby</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="1800">
-            <div class="icon-container">
-              <i class="fab fa-adobe"></i>
-            </div>
-            <h1>Adobe Tools</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Portfolio</h1>
-          <h6>View some of my recent work</h6>
-        </div>
-        <div class="my-portfolio">
-          <div class="portfolio-card">
-            <div class="imgBox" data-text="Design">
-              <img src="images/design.png" alt="design.png">
-            </div>
-            <div class="content">
-              <div>
-                <h3>Design</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="imgBox" data-text="Code">
-              <img src="images/code.png" alt="code.png">
-            </div>
-            <div class="content">
-              <div>
-                <h3>Code</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="imgBox" data-text="Launch">
-              <img src="images/launch.png" alt="launch.png">
-            </div>
-            <div class="content">
-              <div>
-                <h3>Launch</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <div class="imgBox" data-text="Earn">
-              <img src="images/earn.png" alt="earn.png">
-            </div>
-            <div class="content">
-              <div>
-                <h3>Earn</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="experience" id="experience">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Work Experience</h1>
-          <h6>Past and Current jobs</h6>
-        </div>
-      </div>
-      <div class="timeline" data-aos="fade-down" data-aos-delay="300">
-        <ul>
-          <li>
-            <div class="content">
-              <h3>現在就職活動中</h3>
-              <p>
-                現在、Webエンジニアを目指して就職活動中
-              </p>
-            </div>
-            <div class="time">
-              <h4>2020-01 - Now</h4>
-            </div>
-          </li>
-          <li>
-            <div class="content">
-              <h3>ライフイズテック株式会社</h3>
-              <p>
-                大学在学中に自主制作でアニメーション映像に取り組んでおり、アウトプットの場に困っていた時期に友人から誘いを受け、また中高生の新たなきっかけをつくるという思いに共感し、メンターとして参加し、主に映像編集コースを担当した。
-                中高生の長期休暇期間に全国の各大学で開催される3〜5日のITキャンプでは、中高生のITでのものづくりのきっかけを届けるべく、自身の活動拠点である関西のキャンプ以外にも、東京や福岡など各地へメンターとしてキャンプに参加した。
-                参加したキャンプの中にはメンターとしてだけでなく、カメラマンとしてキャンプ全体の場を盛り上げる役割も担った。<br>
-                <br>
-                また、隔週で開催される登校型のスクールにもクラス全体をサポートするCA（クラスアシスタント）として総じて約1年半活動した。これはキャンプとは異なり、長い期間で大学生メンターとともに中高生がアプリケーションの制作とそのリリースに向けて取り組むコースであり、基本的に一年間を通して一つのアプリケーションを作成するために基礎からみっちり学習する。私はこのスクールでクラスが円滑に進むことができるよう、裏方のサポート（出席管理・中高生の相談役・各コースの教材の準備・カメラマン・発表会の準備など）を担当した。
-                この中で私は自分の強みである映像編集・デザインのスキルを生かし、オリジナル映像作品を仕上げ、クラスの最終回に行われる発表会のオープニング映像を制作した。<br>
-                <br>
-                他にも、自分のような技術やスキルを中高生により還元したいという大学生を生み出すため、大学生向けのメンター育成研修のプログラムである”Life is Tech! Leaders”の運営スタッフを約半年間努めた。
-              </p>
-            </div>
-            <div class="time">
-              <h4>2016-03 - 2019-03</h4>
-            </div>
-          </li>
-          <div style="clear: both"></div>
-        </ul>
-      </div>
-    </section>
-
-    <section class="gallery" id="gallery">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Photo Gallery</h1>
-          <h6>The world is always a decisive moment!</h6>
-        </div>
-        <div class="image-gallery">
-          <a href="https://www.instagram.com/p/BTNoXdplt68/?utm_source=ig_web_button_share_sheet" class="img-1" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/B7asUWSB8y7/?utm_source=ig_web_button_share_sheet" class="img-2" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/BS_NXzYFZbl/?utm_source=ig_web_button_share_sheet" class="img-3" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/BV8V1qKl9Iu/?utm_source=ig_web_copy_link" class="img-4" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/BWJKs3blCJN/?utm_source=ig_web_button_share_sheet" class="img-5" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/BeYJRBohzMt/?utm_source=ig_web_button_share_sheet" class="img-6" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/BXzJw-zFnNO/?utm_source=ig_web_button_share_sheet" class="img-7" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-          <a href="https://www.instagram.com/p/BTzF2TOFE_5/?utm_source=ig_web_button_share_sheet" class="img-8" target="_blank">
-            <i class="fas fa-external-link-alt"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <footer class="copyright">
-      <div class="up" id="up">
-        <i class="fas fa-chevron-up"></i>
-      </div>
-      <p>&copy; 2020 Yuta Okuma</p>
-    </footer>
+    </div>
+    <div class="shadow"></div>
   </div>
+  <header id="home">
+    <div class="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link">Experience</a>
+        </li>
+        <li>
+          <a href="#gallery" class="nav-link">Photo Gallery</a>
+        </li>
+        <canvas id="bubble"></canvas>
+      </ul>
+    </nav>
+    <div class="landing-text">
+      <!-- <h1>Yuta Okuma</h1> -->
+      <img src="assets/images/yutaokuma.png" alt="yuta okuma">
+      <h6>Web Developer and Photographer</h6>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+        <img src="assets/images/profile.jpeg" alt="profile">
+      </div>
+      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Myself</h6>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, commodi. Vero, ut, debitis delectus, cumque aliquam consectetur neque quia porro corporis ea asperiores cupiditate quis officiis cum amet ducimus in.
+        </p>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="https://www.facebook.com/kumakuma1129" class="icon-link" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/bear_27earl/" class="icon-link" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><i class="fab fa-instagram" aria-hidden="true"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/bear27_kuma" class="icon-link" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><i class="fab fa-twitter" aria-hidden="true"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Bear27kuma" class="icon-link" target="_blank">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span><i class="fab fa-github" aria-hidden="true"></i></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Skills</h1>
+        <h6>What I can do for you</h6>
+      </div>
+      <div class="my-skills">
+        <div class="skill" data-aos="fade-in" data-aos-delay="300">
+          <div class="icon-container">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h1>HTML</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="600">
+          <div class="icon-container">
+            <i class="fab fa-css3"></i>
+          </div>
+          <h1>CSS</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="900">
+          <div class="icon-container">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <h1>JavaScript</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="1200">
+          <div class="icon-container">
+            <i class="fab fa-react"></i>
+          </div>
+          <h1>React</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="1500">
+          <div class="icon-container">
+            <i class="fas fa-gem"></i>
+          </div>
+          <h1>Ruby</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="1800">
+          <div class="icon-container">
+            <i class="fab fa-adobe"></i>
+          </div>
+          <h1>Adobe Tools</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Portfolio</h1>
+        <h6>View some of my recent work</h6>
+      </div>
+      <div class="my-portfolio">
+        <div class="portfolio-card">
+          <div class="imgBox" data-text="Design">
+            <img src="assets/images/design.png" alt="design.png">
+          </div>
+          <div class="content">
+            <div>
+              <h3>Design</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="imgBox" data-text="Code">
+            <img src="assets/images/code.png" alt="code.png">
+          </div>
+          <div class="content">
+            <div>
+              <h3>Code</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="imgBox" data-text="Launch">
+            <img src="assets/images/launch.png" alt="launch.png">
+          </div>
+          <div class="content">
+            <div>
+              <h3>Launch</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="imgBox" data-text="Earn">
+            <img src="assets/images/earn.png" alt="earn.png">
+          </div>
+          <div class="content">
+            <div>
+              <h3>Earn</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, accusamus. Sequi consectetur at explicabo ipsam.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Work Experience</h1>
+        <h6>Past and Current jobs</h6>
+      </div>
+    </div>
+    <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+      <ul>
+        <li>
+          <div class="content">
+            <h3>現在就職活動中</h3>
+            <p>
+              現在、Webエンジニアを目指して就職活動中
+            </p>
+          </div>
+          <div class="time">
+            <h4>2020-01 - Now</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content">
+            <h3>ライフイズテック株式会社</h3>
+            <p>
+              大学在学中に自主制作でアニメーション映像に取り組んでおり、アウトプットの場に困っていた時期に友人から誘いを受け、また中高生の新たなきっかけをつくるという思いに共感し、メンターとして参加し、主に映像編集コースを担当した。
+              中高生の長期休暇期間に全国の各大学で開催される3〜5日のITキャンプでは、中高生のITでのものづくりのきっかけを届けるべく、自身の活動拠点である関西のキャンプ以外にも、東京や福岡など各地へメンターとしてキャンプに参加した。
+              参加したキャンプの中にはメンターとしてだけでなく、カメラマンとしてキャンプ全体の場を盛り上げる役割も担った。<br>
+              <br>
+              また、隔週で開催される登校型のスクールにもクラス全体をサポートするCA（クラスアシスタント）として総じて約1年半活動した。これはキャンプとは異なり、長い期間で大学生メンターとともに中高生がアプリケーションの制作とそのリリースに向けて取り組むコースであり、基本的に一年間を通して一つのアプリケーションを作成するために基礎からみっちり学習する。私はこのスクールでクラスが円滑に進むことができるよう、裏方のサポート（出席管理・中高生の相談役・各コースの教材の準備・カメラマン・発表会の準備など）を担当した。
+              この中で私は自分の強みである映像編集・デザインのスキルを生かし、オリジナル映像作品を仕上げ、クラスの最終回に行われる発表会のオープニング映像を制作した。<br>
+              <br>
+              他にも、自分のような技術やスキルを中高生により還元したいという大学生を生み出すため、大学生向けのメンター育成研修のプログラムである”Life is Tech! Leaders”の運営スタッフを約半年間努めた。
+            </p>
+          </div>
+          <div class="time">
+            <h4>2016-03 - 2019-03</h4>
+          </div>
+        </li>
+        <div style="clear: both"></div>
+      </ul>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Photo Gallery</h1>
+        <h6>The world is always a decisive moment!</h6>
+      </div>
+      <div class="image-gallery">
+        <a href="https://www.instagram.com/p/BTNoXdplt68/?utm_source=ig_web_button_share_sheet" class="img-1" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/B7asUWSB8y7/?utm_source=ig_web_button_share_sheet" class="img-2" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/BS_NXzYFZbl/?utm_source=ig_web_button_share_sheet" class="img-3" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/BV8V1qKl9Iu/?utm_source=ig_web_copy_link" class="img-4" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/BWJKs3blCJN/?utm_source=ig_web_button_share_sheet" class="img-5" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/BeYJRBohzMt/?utm_source=ig_web_button_share_sheet" class="img-6" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/BXzJw-zFnNO/?utm_source=ig_web_button_share_sheet" class="img-7" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://www.instagram.com/p/BTzF2TOFE_5/?utm_source=ig_web_button_share_sheet" class="img-8" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2020 Yuta Okuma</p>
+  </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
