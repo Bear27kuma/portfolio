@@ -383,6 +383,66 @@ header {
 .skill h1 {
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
+  transition: 650ms;
+}
+
+.skill:first-of-type:hover h1 {
+  color: #e44d26;
+}
+
+.skill:nth-of-type(2):hover h1 {
+  color: #2062af;
+}
+
+.skill:nth-of-type(3):hover h1 {
+  color: #f7df1e;
+}
+
+.skill:nth-of-type(4):hover h1 {
+  color: #53c1de;
+}
+
+.skill:nth-of-type(5):hover h1 {
+  color: #a31601;
+}
+
+.skill:last-of-type:hover h1 {
+  color: #cc2229;
+}
+
+.skill p {
+  font-size: 1.4rem;
+  transition: 800ms;
+}
+
+.skill:first-of-type:hover p {
+  text-decoration: underline;
+  text-decoration-color: #e44d26;
+}
+
+.skill:nth-of-type(2):hover p {
+  text-decoration: underline;
+  text-decoration-color: #2062af;
+}
+
+.skill:nth-of-type(3):hover p {
+  text-decoration: underline;
+  text-decoration-color: #f7df1e;
+}
+
+.skill:nth-of-type(4):hover p {
+  text-decoration: underline;
+  text-decoration-color: #53c1de;
+}
+
+.skill:nth-of-type(5):hover p {
+  text-decoration: underline;
+  text-decoration-color: #a31601;
+}
+
+.skill:last-of-type:hover p {
+  text-decoration: underline;
+  text-decoration-color: #cc2229;
 }
 
 .icon-container {
