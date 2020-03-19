@@ -728,6 +728,12 @@ header {
   font-size: 1.6rem;
 }
 
+.timeline ul li h4 {
+  margin-top: 1rem;
+  padding: 0;
+  font-size: 1.4rem;
+}
+
 .timeline ul li:nth-child(odd) h3 {
   color: rgba(255, 90, 205, 1);
 }
