@@ -624,12 +624,21 @@ header {
   font-size: 1.3rem;
   border: 1px solid #333;
   border-radius: 3rem;
+  transition: 650ms;
 }
 
-.portfolio-card .content a:hover {
-  background: #fff;
-  color: #333;
-  transition: 650ms;
+.portfolio-card:nth-child(1) .content a:hover,
+.portfolio-card:nth-child(4) .content a:hover {
+  background: #FF5ACD;
+  border: 1px solid #FF5ACD;
+  color: #000;
+}
+
+.portfolio-card:nth-child(2) .content a:hover,
+.portfolio-card:nth-child(3) .content a:hover {
+  background: #21D4FD;
+  border: 1px solid #21D4FD;
+  color: #000;
 }
 
 /* Timeline */
@@ -928,14 +937,22 @@ header {
     padding-top: 35%;
   }
 
-  .portfolio-card:nth-child(1):hover .imgBox,
-  .portfolio-card:nth-child(3):hover .imgBox {
+  .portfolio-card:nth-child(odd):hover .imgBox {
     background-color: #FF5ACD;
   }
 
-  .portfolio-card:nth-child(2):hover .imgBox,
-  .portfolio-card:nth-child(4):hover .imgBox {
+  .portfolio-card:nth-child(even):hover .imgBox {
     background-color: #21D4FD;
+  }
+
+  .portfolio-card:nth-child(odd) .content a:hover {
+    background: #FF5ACD;
+    border: 1px solid #FF5ACD;
+  }
+
+  .portfolio-card:nth-child(even) .content a:hover {
+    background: #21D4FD;
+    border: 1px solid #21D4FD;
   }
 }
 
