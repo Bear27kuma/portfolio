@@ -1,4 +1,4 @@
-#up{
+#indicator {
   margin: 0;
   padding: 0;
   z-index: 25;
@@ -18,7 +18,7 @@
   transition: 650ms;
 }
 
-#up:hover .arrow {
+#indicator:hover .arrow {
   opacity: 1;
 }
 

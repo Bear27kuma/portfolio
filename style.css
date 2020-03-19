@@ -307,7 +307,6 @@ header {
 }
 
 .social-media i {
-  /* color: #bfc9d4; */
   color: #fff;
   font-size: 3rem;
 }
@@ -887,7 +886,8 @@ header {
   top: -2.5rem;
   right: 5rem;
   border-radius: 100%;
-  display: flex;
+  display: none;
+  /* display: flex; */
   animation: pulse 2s infinite;
   cursor: pointer;
 }

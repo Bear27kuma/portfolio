@@ -9,6 +9,12 @@ $(document).ready(function () {
     $('.top-nav').removeClass('open');
   });
 
+  $('#indicator').on('click', function () {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1700);
+  });
+
   $('#up').on('click', function () {
     $('html, body').animate({
       scrollTop: 0
