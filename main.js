@@ -15,12 +15,6 @@ $(document).ready(function () {
     }, 1700);
   });
 
-  $('#up').on('click', function () {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1700);
-  });
-
   // AOS
   AOS.init({
     easing: 'ease',
