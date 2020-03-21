@@ -4,7 +4,11 @@
 
 <br />
 
-<img width="840" alt="Screen Shot 2020-03-20 at 21 27 43" src="https://user-images.githubusercontent.com/39920490/77169553-05839100-6afd-11ea-84e0-41338e0228fd.png">
+<img width="840" alt="screenshot1" src="https://user-images.githubusercontent.com/39920490/77169553-05839100-6afd-11ea-84e0-41338e0228fd.png">
+
+<img width="840" alt="screenshot2" src="https://user-images.githubusercontent.com/39920490/77218446-bd9d5200-6b6e-11ea-9f75-6e5fb8b48c09.png">
+
+<img width="840" alt="screenshot3" src="https://user-images.githubusercontent.com/39920490/77218449-c2620600-6b6e-11ea-8b22-fbc08dc9aa4f.png">
 
 
 ## Features
@@ -17,6 +21,16 @@ CSSアニメーションやメディアクエリを多用し、各セクショ�
 ## Usage
 
 使い方ついては特にはないが、サイト内のあらゆるリンクが有効になっているため、リンク先への情報にもアクセスしてもらいたい。
+
+## Editor
+
+Visual Studio Code (Version 1.43.1)
+
+## Development Environment
+
+・HTML
+・CSS (スクロールするクマはSassでスタイリングを書いています)
+・JavaScript (クリックイベントなどではjQueryを使用)
 
 ## Author
 
