@@ -1147,6 +1147,7 @@ header {
     top: -2.5rem;
     left: 10rem;
   }
+}
 
 @media screen and (max-width: 880px) {
   .portfolio-card .content h3 {
